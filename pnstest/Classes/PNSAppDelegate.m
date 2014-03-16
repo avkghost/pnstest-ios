@@ -115,7 +115,7 @@ static NSString *_deviceTokenKey = @"deviceToken";
 
 - (void)takeOff
 {
-    [TestFlight takeOff:@"c14c8091-67c7-404f-9d4d-19341053f44f"];
+//    [TestFlight takeOff:@"c14c8091-67c7-404f-9d4d-19341053f44f"];
 }
 
 @end
