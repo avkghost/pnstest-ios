@@ -12,16 +12,18 @@
 		C29BE45818D59B29005FD658 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29BE45718D59B29005FD658 /* UIKit.framework */; };
 		C29BE45E18D59B29005FD658 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C29BE45C18D59B29005FD658 /* InfoPlist.strings */; };
 		C29BE46018D59B29005FD658 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C29BE45F18D59B29005FD658 /* main.m */; };
-		C29BE46418D59B29005FD658 /* PNSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C29BE46318D59B29005FD658 /* PNSAppDelegate.m */; };
-		C29BE46718D59B29005FD658 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29BE46518D59B29005FD658 /* Main_iPhone.storyboard */; };
-		C29BE46A18D59B29005FD658 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29BE46818D59B29005FD658 /* Main_iPad.storyboard */; };
-		C29BE46D18D59B29005FD658 /* PNSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29BE46C18D59B29005FD658 /* PNSViewController.m */; };
-		C29BE46F18D59B29005FD658 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C29BE46E18D59B29005FD658 /* Images.xcassets */; };
 		C29BE47618D59B29005FD658 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29BE47518D59B29005FD658 /* XCTest.framework */; };
 		C29BE47718D59B29005FD658 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29BE45318D59B29005FD658 /* Foundation.framework */; };
 		C29BE47818D59B29005FD658 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29BE45718D59B29005FD658 /* UIKit.framework */; };
 		C29BE48018D59B29005FD658 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C29BE47E18D59B29005FD658 /* InfoPlist.strings */; };
 		C29BE48218D59B29005FD658 /* pnstestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C29BE48118D59B29005FD658 /* pnstestTests.m */; };
+		C29BE49018D5B905005FD658 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C29BE48F18D5B905005FD658 /* Images.xcassets */; };
+		C29BE49618D5B93C005FD658 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29BE49218D5B93C005FD658 /* Main_iPad.storyboard */; };
+		C29BE49718D5B93C005FD658 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29BE49418D5B93C005FD658 /* Main_iPhone.storyboard */; };
+		C29BE49A18D5B9B3005FD658 /* PNSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C29BE49918D5B9B3005FD658 /* PNSAppDelegate.m */; };
+		C29BE49E18D5B9DA005FD658 /* PNSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29BE49D18D5B9DA005FD658 /* PNSViewController.m */; };
+		C29BE4A418D5BBD2005FD658 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C29BE4A018D5BBD2005FD658 /* libTestFlight.a */; };
+		C29BE4A618D5BC9A005FD658 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C29BE4A518D5BC9A005FD658 /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,18 +45,23 @@
 		C29BE45D18D59B29005FD658 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C29BE45F18D59B29005FD658 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C29BE46118D59B29005FD658 /* pnstest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pnstest-Prefix.pch"; sourceTree = "<group>"; };
-		C29BE46218D59B29005FD658 /* PNSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNSAppDelegate.h; sourceTree = "<group>"; };
-		C29BE46318D59B29005FD658 /* PNSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNSAppDelegate.m; sourceTree = "<group>"; };
-		C29BE46618D59B29005FD658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		C29BE46918D59B29005FD658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		C29BE46B18D59B29005FD658 /* PNSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNSViewController.h; sourceTree = "<group>"; };
-		C29BE46C18D59B29005FD658 /* PNSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNSViewController.m; sourceTree = "<group>"; };
-		C29BE46E18D59B29005FD658 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C29BE47418D59B29005FD658 /* pnstestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pnstestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29BE47518D59B29005FD658 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C29BE47D18D59B29005FD658 /* pnstestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pnstestTests-Info.plist"; sourceTree = "<group>"; };
 		C29BE47F18D59B29005FD658 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C29BE48118D59B29005FD658 /* pnstestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pnstestTests.m; sourceTree = "<group>"; };
+		C29BE48F18D5B905005FD658 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C29BE49318D5B93C005FD658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		C29BE49518D5B93C005FD658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		C29BE49818D5B9B3005FD658 /* PNSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNSAppDelegate.h; sourceTree = "<group>"; };
+		C29BE49918D5B9B3005FD658 /* PNSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNSAppDelegate.m; sourceTree = "<group>"; };
+		C29BE49C18D5B9DA005FD658 /* PNSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNSViewController.h; sourceTree = "<group>"; };
+		C29BE49D18D5B9DA005FD658 /* PNSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNSViewController.m; sourceTree = "<group>"; };
+		C29BE4A018D5BBD2005FD658 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		C29BE4A118D5BBD2005FD658 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		C29BE4A218D5BBD2005FD658 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		C29BE4A318D5BBD2005FD658 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		C29BE4A518D5BC9A005FD658 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +69,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C29BE4A618D5BC9A005FD658 /* libz.dylib in Frameworks */,
 				C29BE45618D59B29005FD658 /* CoreGraphics.framework in Frameworks */,
 				C29BE45818D59B29005FD658 /* UIKit.framework in Frameworks */,
 				C29BE45418D59B29005FD658 /* Foundation.framework in Frameworks */,
+				C29BE4A418D5BBD2005FD658 /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +93,9 @@
 		C29BE44718D59B29005FD658 = {
 			isa = PBXGroup;
 			children = (
+				C29BE48B18D5B87C005FD658 /* Classes */,
+				C29BE48C18D5B87C005FD658 /* Resources */,
+				C29BE48D18D5B87C005FD658 /* ThirdParty */,
 				C29BE45918D59B29005FD658 /* pnstest */,
 				C29BE47B18D59B29005FD658 /* pnstestTests */,
 				C29BE45218D59B29005FD658 /* Frameworks */,
@@ -103,6 +115,7 @@
 		C29BE45218D59B29005FD658 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C29BE4A518D5BC9A005FD658 /* libz.dylib */,
 				C29BE45318D59B29005FD658 /* Foundation.framework */,
 				C29BE45518D59B29005FD658 /* CoreGraphics.framework */,
 				C29BE45718D59B29005FD658 /* UIKit.framework */,
@@ -114,13 +127,6 @@
 		C29BE45918D59B29005FD658 /* pnstest */ = {
 			isa = PBXGroup;
 			children = (
-				C29BE46218D59B29005FD658 /* PNSAppDelegate.h */,
-				C29BE46318D59B29005FD658 /* PNSAppDelegate.m */,
-				C29BE46518D59B29005FD658 /* Main_iPhone.storyboard */,
-				C29BE46818D59B29005FD658 /* Main_iPad.storyboard */,
-				C29BE46B18D59B29005FD658 /* PNSViewController.h */,
-				C29BE46C18D59B29005FD658 /* PNSViewController.m */,
-				C29BE46E18D59B29005FD658 /* Images.xcassets */,
 				C29BE45A18D59B29005FD658 /* Supporting Files */,
 			);
 			path = pnstest;
@@ -153,6 +159,73 @@
 				C29BE47E18D59B29005FD658 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C29BE48B18D5B87C005FD658 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C29BE49B18D5B9DA005FD658 /* Controllers */,
+				C29BE49818D5B9B3005FD658 /* PNSAppDelegate.h */,
+				C29BE49918D5B9B3005FD658 /* PNSAppDelegate.m */,
+			);
+			name = Classes;
+			path = pnstest/Classes;
+			sourceTree = "<group>";
+		};
+		C29BE48C18D5B87C005FD658 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C29BE48F18D5B905005FD658 /* Images.xcassets */,
+				C29BE48E18D5B8A3005FD658 /* Storyboards */,
+			);
+			name = Resources;
+			path = pnstest/Resources;
+			sourceTree = "<group>";
+		};
+		C29BE48D18D5B87C005FD658 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				C29BE49F18D5BBD2005FD658 /* TestFlight */,
+			);
+			name = ThirdParty;
+			path = pnstest/ThirdParty;
+			sourceTree = "<group>";
+		};
+		C29BE48E18D5B8A3005FD658 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C29BE49118D5B93C005FD658 /* Base.lproj */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C29BE49118D5B93C005FD658 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				C29BE49218D5B93C005FD658 /* Main_iPad.storyboard */,
+				C29BE49418D5B93C005FD658 /* Main_iPhone.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		C29BE49B18D5B9DA005FD658 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C29BE49C18D5B9DA005FD658 /* PNSViewController.h */,
+				C29BE49D18D5B9DA005FD658 /* PNSViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C29BE49F18D5BBD2005FD658 /* TestFlight */ = {
+			isa = PBXGroup;
+			children = (
+				C29BE4A018D5BBD2005FD658 /* libTestFlight.a */,
+				C29BE4A118D5BBD2005FD658 /* TestFlight+AsyncLogging.h */,
+				C29BE4A218D5BBD2005FD658 /* TestFlight+ManualSessions.h */,
+				C29BE4A318D5BBD2005FD658 /* TestFlight.h */,
+			);
+			path = TestFlight;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +308,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C29BE46A18D59B29005FD658 /* Main_iPad.storyboard in Resources */,
-				C29BE46F18D59B29005FD658 /* Images.xcassets in Resources */,
-				C29BE46718D59B29005FD658 /* Main_iPhone.storyboard in Resources */,
+				C29BE49718D5B93C005FD658 /* Main_iPhone.storyboard in Resources */,
+				C29BE49618D5B93C005FD658 /* Main_iPad.storyboard in Resources */,
+				C29BE49018D5B905005FD658 /* Images.xcassets in Resources */,
 				C29BE45E18D59B29005FD658 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +330,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C29BE46418D59B29005FD658 /* PNSAppDelegate.m in Sources */,
-				C29BE46D18D59B29005FD658 /* PNSViewController.m in Sources */,
+				C29BE49A18D5B9B3005FD658 /* PNSAppDelegate.m in Sources */,
+				C29BE49E18D5B9DA005FD658 /* PNSViewController.m in Sources */,
 				C29BE46018D59B29005FD658 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,28 +363,28 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		C29BE46518D59B29005FD658 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C29BE46618D59B29005FD658 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		C29BE46818D59B29005FD658 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C29BE46918D59B29005FD658 /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		C29BE47E18D59B29005FD658 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C29BE47F18D59B29005FD658 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C29BE49218D5B93C005FD658 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C29BE49318D5B93C005FD658 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C29BE49418D5B93C005FD658 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C29BE49518D5B93C005FD658 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -399,6 +472,10 @@
 				GCC_PREFIX_HEADER = "pnstest/pnstest-Prefix.pch";
 				INFOPLIST_FILE = "pnstest/pnstest-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/pnstest/ThirdParty/TestFlight",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "650A800E-87AC-4D8D-BE37-9547BDFD3B92";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -416,6 +493,10 @@
 				GCC_PREFIX_HEADER = "pnstest/pnstest-Prefix.pch";
 				INFOPLIST_FILE = "pnstest/pnstest-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/pnstest/ThirdParty/TestFlight",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "650A800E-87AC-4D8D-BE37-9547BDFD3B92";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -482,6 +563,7 @@
 				C29BE48718D59B29005FD658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C29BE48818D59B29005FD658 /* Build configuration list for PBXNativeTarget "pnstestTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +572,7 @@
 				C29BE48A18D59B29005FD658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

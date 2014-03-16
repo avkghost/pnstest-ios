@@ -36,6 +36,8 @@ static NSString *_deviceTokenKey = @"deviceToken";
     
     [[UIApplication sharedApplication] registerForRemoteNotificationTypes:(UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeSound)];
     
+    [self takeOff];
+    
     return YES;
 }
 							
@@ -72,24 +74,48 @@ static NSString *_deviceTokenKey = @"deviceToken";
 {
     [[self class] setDeviceToken:deviceToken];
     NSLog(@"deviceToken: %@", [[self class] deviceToken]);
+    [[[UIAlertView alloc] initWithTitle:@"Successfully register with APNS"
+                                message:[NSString stringWithFormat:@"deviceToken: %@", [[self class] deviceToken]]
+                               delegate:nil
+                      cancelButtonTitle:@"OK"
+                      otherButtonTitles:nil] show];
 }
 
 - (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error
 {
     // TODO: Implementation
     NSLog(@"error: %@", error);
+    [[[UIAlertView alloc] initWithTitle:@"Error while register with APNS"
+                                message:[NSString stringWithFormat:@"error: %@", error]
+                               delegate:nil
+                      cancelButtonTitle:@"OK"
+                      otherButtonTitles:nil] show];
+
 }
 
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo
 {
     // TODO: Implementation
     NSLog(@"userInfo: %@", userInfo);
+    [[[UIAlertView alloc] initWithTitle:@"Remote notification was received"
+                                message:[NSString stringWithFormat:@"userInfo: %@", userInfo]
+                               delegate:nil
+                      cancelButtonTitle:@"OK"
+                      otherButtonTitles:nil] show];
+    
 }
 
 - (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification
 {
     // TODO: Implementation
     NSLog(@"notification: %@", notification);
+}
+
+#pragma mark - Private methods
+
+- (void)takeOff
+{
+    [TestFlight takeOff:@"c14c8091-67c7-404f-9d4d-19341053f44f"];
 }
 
 @end
